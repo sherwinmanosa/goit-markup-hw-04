@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--slate);
@@ -28,7 +41,7 @@ body {
 .header {
   background-color: var(--white);
   display: flex;
-  width: 1440px;
+
   height: 72px;
   justify-content: center;
   align-items: center;
@@ -153,6 +166,12 @@ body {
   background-color: var(--navyblue);
   padding: 188px 0;
 }
+.hero-section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .hero-tittle {
   font-family: Roboto;
   font-size: 56px;
@@ -173,12 +192,12 @@ body {
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
-  min-width: 169px;
+  width: 169px;
   height: 56px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  display: block;
+  margin-top: 48px;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -252,8 +271,10 @@ body {
   padding-bottom: 120px;
 }
 
-img {
-  display: block;
+.services-section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .service-list-item {
@@ -268,6 +289,12 @@ img {
 .team-section {
   background-color: var(--cloud);
   padding: 120px 0;
+}
+
+.team-section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .team-list-item {
@@ -301,6 +328,11 @@ img {
   padding: 100px 0;
 }
 
+.footer .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .footer-logo-span-web {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -323,11 +355,8 @@ img {
 }
 
 .footer .logo {
-  display: inline-block;
   margin-bottom: 16px;
-}
-.footer .container {
-  display: inline-block;
+  flex-basis: 100%;
 }
 
 .footer-logo-span {
@@ -347,8 +376,7 @@ img {
 /* Portfolio */
 
 .portfolio-main .container {
-  display: inline-block;
-  max-width: 100%;
+  flex-wrap: wrap;
 }
 
 .main-section {
@@ -370,13 +398,12 @@ img {
 .portfolio-main .list {
   justify-content: center;
   margin-bottom: 72px;
-  flex-wrap: wrap;
 }
 
 .button-menu {
   display: flex;
+  width: 1158px;
   gap: 24px;
-  justify-content: center;
 }
 
 .button {
