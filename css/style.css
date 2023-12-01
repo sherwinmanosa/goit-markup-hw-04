@@ -45,8 +45,6 @@ body {
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid var(--cornerflower);
-  box-shadow: 0px 2px 1px rgba (46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba (46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -164,8 +162,18 @@ body {
 }
 /* Section 1 */
 .hero-section {
+  display: flex;
   background-color: var(--navyblue);
   padding: 188px 0;
+  margin: 0 auto;
+  background-image: url(../images/people-office.png);
+  background-image: -o-linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+  );
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .hero-section .container {
   display: flex;
