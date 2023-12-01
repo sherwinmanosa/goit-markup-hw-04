@@ -165,10 +165,13 @@ body {
   display: flex;
   background-color: var(--navyblue);
   padding: 188px 0;
-  margin: 0 auto;
-  background-image: (rgba(46, 47, 66, 0 7), rgba(46, 47, 66, 0.7)),
-    url(../images/img-name.jpg);
   max-width: 1440px;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
