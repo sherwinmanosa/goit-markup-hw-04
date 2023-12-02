@@ -382,7 +382,7 @@ body {
   align-items: baseline;
 }
 
-.footer-social-media {
+.footer-container-logo {
   margin-right: 120px;
 }
 
@@ -424,6 +424,14 @@ body {
   letter-spacing: 0.32px;
   color: var(--cloud);
   max-width: 264px;
+}
+
+.footer-social-media-title {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white);
+  margin-bottom: 16px;
 }
 
 /* Portfolio */
