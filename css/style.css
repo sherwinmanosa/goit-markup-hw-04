@@ -434,6 +434,10 @@ body {
   margin-bottom: 16px;
 }
 
+.social-media-list {
+  gap: 16px;
+}
+
 /* Portfolio */
 
 .portfolio-main .container {
