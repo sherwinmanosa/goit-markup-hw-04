@@ -382,6 +382,10 @@ body {
   align-items: baseline;
 }
 
+.footer-social-media {
+  margin-right: 120px;
+}
+
 .footer-logo-span-web {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
