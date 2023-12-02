@@ -342,6 +342,10 @@ body {
   text-align: center;
 }
 
+.social-media {
+  display: flex;
+}
+
 .social-media-list {
   list-style: none;
 }
