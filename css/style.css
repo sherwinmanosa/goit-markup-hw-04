@@ -344,6 +344,8 @@ body {
 
 .social-media {
   display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 
 .social-media-list {
