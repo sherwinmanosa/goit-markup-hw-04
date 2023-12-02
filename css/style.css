@@ -437,6 +437,10 @@ body {
 .footer-social-media .social-media {
   gap: 16px;
 }
+.footer-social-media .social-media-link-item:hover,
+.footer-social-media .social-media-link-item:focus {
+  background-color: var(--green);
+}
 
 /* Portfolio */
 
