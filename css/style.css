@@ -175,8 +175,8 @@ body {
     ),
     url(../images/people-office.png);
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
+  background-size: cover;
 }
 .hero-section .container {
   display: flex;
