@@ -371,6 +371,11 @@ body {
   background-color: var(--ocean);
 }
 
+/* Section 5 */
+.customer-icon-list {
+  list-style: none;
+}
+
 /* footer Section */
 .footer {
   background-color: var(--navyblue);
