@@ -342,6 +342,10 @@ body {
   text-align: center;
 }
 
+.social-media-list {
+  list-style: none;
+}
+
 /* footer Section */
 .footer {
   background-color: var(--navyblue);
