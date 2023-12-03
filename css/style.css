@@ -390,6 +390,8 @@ body {
 }
 .customer-icon-list {
   list-style: none;
+  min-width: 168px;
+  height: 88px;
 }
 .customer-icon-list-item {
   width: 100%;
