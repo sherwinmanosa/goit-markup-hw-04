@@ -391,6 +391,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--lightslate);
+}
+
+.customer-icon-list-item:hover,
+.customer-icon-list-item:focus {
+  color: var(--ocean);
+  border-color: var(--ocean);
 }
 
 /* footer Section */
