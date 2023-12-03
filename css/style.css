@@ -372,6 +372,9 @@ body {
 }
 
 /* Section 5 */
+.customer-section {
+  padding: 120px 0;
+}
 .customer-icon {
   display: flex;
   gap: 24px;
