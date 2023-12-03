@@ -372,19 +372,17 @@ body {
 }
 
 /* Section 5 */
-.customer-icon-list {
-  list-style: none;
+.customer-icon {
   display: flex;
   gap: 24px;
 }
-
-.cutomer-section .container {
-  padding: 120px 0;
-}
-
-.customer-icon-list-item {
+.customer-icon-list {
   width: calc((100% - 120px) / 6);
   height: 88px;
+}
+
+.customer-icon-list {
+  list-style: none;
 }
 
 /* footer Section */
