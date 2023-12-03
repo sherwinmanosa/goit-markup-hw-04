@@ -380,9 +380,17 @@ body {
   width: calc((100% - 120px) / 6);
   height: 88px;
 }
-
 .customer-icon-list {
   list-style: none;
+}
+.customer-icon-list-item {
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--lightslate);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* footer Section */
