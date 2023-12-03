@@ -375,6 +375,11 @@ body {
 .customer-section {
   padding: 120px 0;
 }
+.customer-section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .customer-icon {
   display: flex;
   gap: 24px;
